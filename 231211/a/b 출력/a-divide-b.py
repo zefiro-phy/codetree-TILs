@@ -6,3 +6,4 @@ d = a%b
 print(c, end =".")
 for _ in range(1,21):
     print(d*10//b, end="")
+    d = d*10%b
